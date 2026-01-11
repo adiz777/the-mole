@@ -1,6 +1,6 @@
 {
   "hq_intro": {
-    "text": "Arrive at HQ disguised as technician.",
+    "text": "You arrive at HQ disguised as a technician.",
     "choices": [
       {
         "text": "Greet receptionist",
@@ -17,7 +17,7 @@
     ]
   },
   "reception": {
-    "text": "Receptionist eyes badge suspiciously.",
+    "text": "Receptionist eyes your badge suspiciously.",
     "choices": [
       {
         "text": "Small talk",
@@ -73,7 +73,7 @@
     ]
   },
   "street": {
-    "text": "Outside now, plan next mission.",
+    "text": "You are outside. Time to plan next mission.",
     "choices": []
   }
 }
