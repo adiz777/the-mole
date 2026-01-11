@@ -1,0 +1,79 @@
+{
+  "hq_intro": {
+    "text": "Arrive at HQ disguised as technician.",
+    "choices": [
+      {
+        "text": "Greet receptionist",
+        "suspicionChange": 5,
+        "nextNode": "reception",
+        "evidence": null
+      },
+      {
+        "text": "Sneak past",
+        "suspicionChange": 15,
+        "nextNode": "hallway",
+        "evidence": null
+      }
+    ]
+  },
+  "reception": {
+    "text": "Receptionist eyes badge suspiciously.",
+    "choices": [
+      {
+        "text": "Small talk",
+        "suspicionChange": -5,
+        "nextNode": "hallway",
+        "evidence": "StaffSchedule"
+      },
+      {
+        "text": "Ignore",
+        "suspicionChange": 10,
+        "nextNode": "hallway",
+        "evidence": null
+      }
+    ]
+  },
+  "hallway": {
+    "text": "Two doors: Server Room and Office.",
+    "choices": [
+      {
+        "text": "Server Room",
+        "suspicionChange": 10,
+        "nextNode": "server_room",
+        "evidence": "NetworkMap"
+      },
+      {
+        "text": "Office",
+        "suspicionChange": 0,
+        "nextNode": "office",
+        "evidence": "BossNotes"
+      }
+    ]
+  },
+  "server_room": {
+    "text": "Copying data quietly.",
+    "choices": [
+      {
+        "text": "Leave",
+        "suspicionChange": 5,
+        "nextNode": "street",
+        "evidence": "PasswordList"
+      }
+    ]
+  },
+  "office": {
+    "text": "You find secret files in drawer.",
+    "choices": [
+      {
+        "text": "Take files",
+        "suspicionChange": 10,
+        "nextNode": "street",
+        "evidence": "MissionPlans"
+      }
+    ]
+  },
+  "street": {
+    "text": "Outside now, plan next mission.",
+    "choices": []
+  }
+}

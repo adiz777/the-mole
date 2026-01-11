@@ -1,0 +1,11 @@
+
+body { background:#0a0f1c; color:#fff; font-family:Arial; }
+.app { max-width:700px; margin:auto; padding:20px; }
+button { margin:5px; padding:10px; background:#00ccff; border:none; color:#000; cursor:pointer; }
+button:hover { background:#0099cc; color:#fff; }
+.meter { background:#333; height:20px; margin:10px 0; border-radius:5px; overflow:hidden; }
+.fill { height:100%; }
+.locker { margin-top:20px; border:1px solid #00ccff; padding:10px; border-radius:5px; }
+.inventory { margin-top:20px; border:1px solid #ff9900; padding:10px; border-radius:5px; }
+.unlock { color:#00ff99; font-weight:bold; font-size:1.2em; }
+.hint { color:#aaa; margin-top:10px; font-style:italic; }
